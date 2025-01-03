@@ -1,0 +1,13 @@
+.carousel{
+    width: 100%;
+    margin: auto;
+    padding-bottom: 2vh;
+}
+.carousel-item{
+    height: 40rem;
+}
+
+.carousel-caption {
+    bottom: 3rem;
+    z-index: 10;
+}

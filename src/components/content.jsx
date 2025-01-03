@@ -2,7 +2,7 @@ import React from "react";
 import Footer from "./footer";
 import './main.css';
 
-const Main = () => {
+const Content = () => {
     return(
         <main role="main">
 
@@ -124,4 +124,4 @@ const Main = () => {
     );
 }
 
-export default Main;
+export default Content;

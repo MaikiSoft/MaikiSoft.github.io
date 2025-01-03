@@ -1,12 +1,12 @@
 import React from "react";
 import Menu from "./menu";
-import Main from "./main";
+import Content from "./content";
 const Portafolio = () => {
 
     return (
     <>
     <Menu></Menu>
-    <Main></Main>
+    <Content></Content>
     </>
     );
 };

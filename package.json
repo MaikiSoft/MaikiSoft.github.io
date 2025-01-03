@@ -1,15 +1,15 @@
 {
-  "name": "maikisoft.github.io",
+  "name": "portafolio",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://maikisoft.github.io/",
+  "homepage": "https://maikisoft.github.io/portafolio",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "predeploy": "vite build",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
